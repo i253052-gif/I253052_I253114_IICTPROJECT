@@ -1,0 +1,259 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #EDE6DD;
+    color: #8B7355;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: #EDE6DD;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #8B7355;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    color: #6B5845;
+}
+
+.logo span {
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #8B7355;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+
+.main-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: #8B7355;
+    margin-bottom: 80px;
+}
+
+
+.form-section {
+    margin-bottom: 80px;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8B7355;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    max-width: 520px;
+    padding: 15px 20px;
+    background-color: #F5EFE7;
+    border: 1px solid #B8A590;
+    color: #8B7355;
+    font-size: 14px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #8B7355;
+    letter-spacing: 2px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #8B7355;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.submit-btn {
+    background-color: #7A8F7E;
+    color: #F5EFE7;
+    border: none;
+    padding: 15px 50px;
+    font-size: 15px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #6A7F6E;
+}
+
+
+.info-section {
+    text-align: center;
+}
+
+.info-heading {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8B7355;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8B7355;
+    margin-bottom: 8px;
+}
+
+.answer {
+    font-size: 14px;
+    color: #8B7355;
+}
+
+
+.email-info {
+    margin-top: 50px;
+}
+
+.email-info p {
+    font-size: 14px;
+    color: #8B7355;
+    letter-spacing: 0.5px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 60px;
+    background-color: #EDE6DD;
+    margin-top: 100px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #8B7355;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.footer a:hover {
+    color: #6B5845;
+}
+
+.footer-logo span {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #8B7355;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+.footer .icon {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 30px;
+    }
+    
+    .nav-left,
+    .nav-right {
+        gap: 20px;
+    }
+    
+    .container {
+        padding: 40px 30px;
+    }
+    
+    .main-title {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    
+    .form-input,
+    .form-textarea {
+        max-width: 100%;
+    }
+    
+    .footer {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 30px;
+    }
+    
+    .footer-left,
+    .footer-right {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
