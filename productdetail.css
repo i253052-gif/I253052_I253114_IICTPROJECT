@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation Bar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -53,21 +53,20 @@ body {
     font-size: 20px;
 }
 
-/* Main Container */
 .container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 60px 80px;
 }
 
-/* Product Section */
+
 .product-section {
     display: flex;
     gap: 80px;
     align-items: flex-start;
 }
 
-/* Product Images - Left Side */
+
 .product-images {
     flex: 1;
     max-width: 600px;
@@ -100,7 +99,7 @@ body {
     border-color: #8B7355;
 }
 
-/* Product Details - Right Side */
+
 .product-details {
     flex: 1;
     max-width: 600px;
@@ -114,7 +113,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* Star Rating */
+
 .star-rating {
     margin-bottom: 20px;
 }
@@ -125,7 +124,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* Price */
+
 .price {
     font-size: 48px;
     font-weight: 400;
@@ -133,7 +132,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* Description */
 .description {
     font-size: 14px;
     line-height: 1.8;
@@ -142,7 +140,7 @@ body {
     text-align: justify;
 }
 
-/* Color Section */
+
 .color-heading {
     font-size: 18px;
     font-weight: 600;
@@ -169,7 +167,7 @@ body {
     border-color: #8B7355;
 }
 
-/* Add to Cart Button */
+
 .add-to-cart-btn {
     width: 100%;
     background-color: #7A8F7E;
@@ -187,7 +185,7 @@ body {
     background-color: #6A7F6E;
 }
 
-/* Quantity Selector */
+
 .quantity-selector {
     display: flex;
     align-items: center;
@@ -231,7 +229,7 @@ body {
     outline: none;
 }
 
-/* Remove number input arrows */
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -242,7 +240,7 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-/* Footer */
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -283,7 +281,7 @@ input[type=number] {
     font-size: 18px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .product-section {
         gap: 50px;
